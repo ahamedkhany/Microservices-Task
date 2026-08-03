@@ -66,3 +66,107 @@ This document provides details on testing various services after running the `do
 2. Once the services are running, use the above endpoints to verify the functionality.
 
 Happy testing!
+
+
+Github repo: https://github.com/ahamedkhany/Microservices-Task.git 
+
+ 
+
+git clone https://github.com/ahamedkhany/Microservices-Task.git 
+
+ 
+
+Go inside local directory open command prompt using cmd and run the below command to open VS code. 
+
+code . 
+
+ 
+
+Add Dockerfile in all the 4 services. 
+
+ 
+
+Add docker-compose.yml file to run multiple containers under Docker network 
+
+ 
+
+Run the below commands 
+
+docker compose up –build 
+
+ 
+
+Now test the services by running in localhost 
+
+  
+
+ 
+
+ 
+
+Find the below screenshots for all the 4 services 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+User-service 
+
+ 
+
+ 
+
+Products-service 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Order-service 
+
+ 
+
+ 
+
+ 
+
+Gateway-servce 
+
+ 
+Since it’s gateway service you can hit urls with /api/users, /api/orders, /api/products  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
